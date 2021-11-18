@@ -1,5 +1,5 @@
 <!--begin::Aside-->
-<div class="aside aside-left d-flex flex-column flex-row-auto" id="kt_aside"  style="right:  ;">
+<div class="aside aside-left d-flex flex-column flex-row-auto" id="kt_aside" style="right:  ;">
     <!--begin::Aside Menu-->
     <div class="aside-menu-wrapper flex-column-fluid" id="kt_aside_menu_wrapper">
         <!--begin::Menu Container-->
@@ -86,21 +86,20 @@
 
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" class="menu-link menu-toggle">
-										<span class="svg-icon menu-icon">
-											<!--begin::Svg Icon | path:assets/media/svg/icons/Layout/Layout-left-panel-2.svg-->
-											<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
-                                                 viewBox="0 0 24 24" version="1.1">
-												<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-													<rect x="0" y="0" width="24" height="24"/>
-													<path d="M10,4 L21,4 C21.5522847,4 22,4.44771525 22,5 L22,7 C22,7.55228475 21.5522847,8 21,8 L10,8 C9.44771525,8 9,7.55228475 9,7 L9,5 C9,4.44771525 9.44771525,4 10,4 Z M10,10 L21,10 C21.5522847,10 22,10.4477153 22,11 L22,13 C22,13.5522847 21.5522847,14 21,14 L10,14 C9.44771525,14 9,13.5522847 9,13 L9,11 C9,10.4477153 9.44771525,10 10,10 Z M10,16 L21,16 C21.5522847,16 22,16.4477153 22,17 L22,19 C22,19.5522847 21.5522847,20 21,20 L10,20 C9.44771525,20 9,19.5522847 9,19 L9,17 C9,16.4477153 9.44771525,16 10,16 Z"
-                                                          fill="#000000"/>
-													<rect fill="#000000" opacity="0.3" x="2" y="4" width="5" height="16"
-                                                          rx="1"/>
-												</g>
-											</svg>
-                                            <!--end::Svg Icon-->
-										</span>
-                        <span class="menu-text">الخدمــــات</span>
+                   <span class="svg-icon svg-icon-primary svg-icon-2x"><svg
+                               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                               width="24px" height="24px"
+                               viewBox="0 0 24 24" version="1.1">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect x="0" y="0" width="24" height="24"/>
+        <path d="M5.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L5.5,11 C4.67157288,11 4,10.3284271 4,9.5 L4,5.5 C4,4.67157288 4.67157288,4 5.5,4 Z M11,6 C10.4477153,6 10,6.44771525 10,7 C10,7.55228475 10.4477153,8 11,8 L13,8 C13.5522847,8 14,7.55228475 14,7 C14,6.44771525 13.5522847,6 13,6 L11,6 Z"
+              fill="#000000" opacity="0.3"/>
+        <path d="M5.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M11,15 C10.4477153,15 10,15.4477153 10,16 C10,16.5522847 10.4477153,17 11,17 L13,17 C13.5522847,17 14,16.5522847 14,16 C14,15.4477153 13.5522847,15 13,15 L11,15 Z"
+              fill="#000000"/>
+    </g>
+</svg>
+                   </span>
+                        <span class="menu-text">عرض الخدمات</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="menu-submenu">
@@ -108,50 +107,26 @@
                         <ul class="menu-subnav">
                             <li class="menu-item menu-item-parent" aria-haspopup="true">
 												<span class="menu-link">
-													<span class="menu-text">الخدمات</span>
+													<span class="menu-text"> خدمات</span>
 												</span>
                             </li>
                             <li class="menu-item menu-item-submenu" aria-haspopup="true"
                                 data-menu-toggle="hover">
-                                <a href="javascript:;" class="menu-link menu-toggle">
+                                <a href="/serviceFee" class="menu-link menu-toggle">
                                     <i class="menu-bullet menu-bullet-dot">
                                         <span></span>
                                     </i>
-                                    <span class="menu-text">عرض الخدمـات</span>
-                                    <i class="menu-arrow"></i>
+                                    <span class="menu-text">الخدمات المطلوبة</span>
                                 </a>
-                                <div class="menu-submenu">
-                                    <i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
+                                <i class="menu-arrow"></i>
 
-                                        <li class="menu-item" aria-haspopup="true">
-                                            <a target="_blank"
-                                               href="/service"
-                                               class="menu-link">
-									<span class="svg-icon menu-icon">
-											  <i class="menu-bullet menu-bullet-dot">
+                            <li class="menu-item" aria-haspopup="true">
+                                <a href="/SubscriptionFee" class="menu-link">
+                                    <i class="menu-bullet menu-bullet-dot">
                                         <span></span>
                                     </i>
-										</span>
-                                                <span class="menu-text">الخدمات المتوفــرة</span>
-                                            </a>
-                                        </li>
-
-                                        <li class="menu-item" aria-haspopup="true">
-                                            <a target="_blank"
-                                               href="/serviceRequest"
-                                               class="menu-link">
-									<span class="svg-icon menu-icon">
-										  <i class="menu-bullet menu-bullet-dot">
-                                        <span></span>
-                                    </i>
-										</span>
-                                                <span class="menu-text">الخدمات المطلوبــة</span>
-                                            </a>
-                                        </li>
-
-                                    </ul>
-                                </div>
+                                    <span class="menu-text">الخدمات المتوافرة</span>
+                                </a>
                             </li>
 
 
@@ -163,24 +138,25 @@
                     <h4 class="menu-text">إدارة الطلبــات </h4>
                     <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
                 </li>
-
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" class="menu-link menu-toggle">
 										<span class="svg-icon menu-icon">
-											<!--begin::Svg Icon | path:assets/media/svg/icons/Design/PenAndRuller.svg-->
-											<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
-                                                 viewBox="0 0 24 24" version="1.1">
-												<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-													<rect x="0" y="0" width="24" height="24"/>
-													<path d="M3,16 L5,16 C5.55228475,16 6,15.5522847 6,15 C6,14.4477153 5.55228475,14 5,14 L3,14 L3,12 L5,12 C5.55228475,12 6,11.5522847 6,11 C6,10.4477153 5.55228475,10 5,10 L3,10 L3,8 L5,8 C5.55228475,8 6,7.55228475 6,7 C6,6.44771525 5.55228475,6 5,6 L3,6 L3,4 C3,3.44771525 3.44771525,3 4,3 L10,3 C10.5522847,3 11,3.44771525 11,4 L11,19 C11,19.5522847 10.5522847,20 10,20 L4,20 C3.44771525,20 3,19.5522847 3,19 L3,16 Z"
-                                                          fill="#000000" opacity="0.3"/>
-													<path d="M16,3 L19,3 C20.1045695,3 21,3.8954305 21,5 L21,15.2485298 C21,15.7329761 20.8241635,16.200956 20.5051534,16.565539 L17.8762883,19.5699562 C17.6944473,19.7777745 17.378566,19.7988332 17.1707477,19.6169922 C17.1540423,19.602375 17.1383289,19.5866616 17.1237117,19.5699562 L14.4948466,16.565539 C14.1758365,16.200956 14,15.7329761 14,15.2485298 L14,5 C14,3.8954305 14.8954305,3 16,3 Z"
-                                                          fill="#000000"/>
-												</g>
-											</svg>
+											<!--begin::Svg Icon | path:assets/media/svg/icons/Layout/Layout-horizontal.svg-->
+											<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <g id="Stockholm-icons-/-Shopping-/-Dollar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+        <rect id="Rectangle" fill="#000000" opacity="0.3" x="11.5" y="2" width="2" height="4" rx="1"></rect>
+        <rect id="Rectangle-Copy-3" fill="#000000" opacity="0.3" x="11.5" y="16" width="2" height="5" rx="1"></rect>
+        <path d="M15.493,8.044 C15.2143319,7.68933156 14.8501689,7.40750104 14.4005,7.1985 C13.9508311,6.98949895 13.5170021,6.885 13.099,6.885 C12.8836656,6.885 12.6651678,6.90399981 12.4435,6.942 C12.2218322,6.98000019 12.0223342,7.05283279 11.845,7.1605 C11.6676658,7.2681672 11.5188339,7.40749914 11.3985,7.5785 C11.2781661,7.74950085 11.218,7.96799867 11.218,8.234 C11.218,8.46200114 11.2654995,8.65199924 11.3605,8.804 C11.4555005,8.95600076 11.5948324,9.08899943 11.7785,9.203 C11.9621676,9.31700057 12.1806654,9.42149952 12.434,9.5165 C12.6873346,9.61150047 12.9723317,9.70966616 13.289,9.811 C13.7450023,9.96300076 14.2199975,10.1308324 14.714,10.3145 C15.2080025,10.4981676 15.6576646,10.7419985 16.063,11.046 C16.4683354,11.3500015 16.8039987,11.7268311 17.07,12.1765 C17.3360013,12.6261689 17.469,13.1866633 17.469,13.858 C17.469,14.6306705 17.3265014,15.2988305 17.0415,15.8625 C16.7564986,16.4261695 16.3733357,16.8916648 15.892,17.259 C15.4106643,17.6263352 14.8596698,17.8986658 14.239,18.076 C13.6183302,18.2533342 12.97867,18.342 12.32,18.342 C11.3573285,18.342 10.4263378,18.1741683 9.527,17.8385 C8.62766217,17.5028317 7.88033631,17.0246698 7.285,16.404 L9.413,14.238 C9.74233498,14.6433354 10.176164,14.9821653 10.7145,15.2545 C11.252836,15.5268347 11.7879973,15.663 12.32,15.663 C12.5606679,15.663 12.7949989,15.6376669 13.023,15.587 C13.2510011,15.5363331 13.4504991,15.4540006 13.6215,15.34 C13.7925009,15.2259994 13.9286662,15.0740009 14.03,14.884 C14.1313338,14.693999 14.182,14.4660013 14.182,14.2 C14.182,13.9466654 14.1186673,13.7313342 13.992,13.554 C13.8653327,13.3766658 13.6848345,13.2151674 13.4505,13.0695 C13.2161655,12.9238326 12.9248351,12.7908339 12.5765,12.6705 C12.2281649,12.5501661 11.8323355,12.420334 11.389,12.281 C10.9583312,12.141666 10.5371687,11.9770009 10.1255,11.787 C9.71383127,11.596999 9.34650161,11.3531682 9.0235,11.0555 C8.70049838,10.7578318 8.44083431,10.3968355 8.2445,9.9725 C8.04816568,9.54816454 7.95,9.03200304 7.95,8.424 C7.95,7.67666293 8.10199848,7.03700266 8.406,6.505 C8.71000152,5.97299734 9.10899753,5.53600171 9.603,5.194 C10.0970025,4.85199829 10.6543302,4.60183412 11.275,4.4435 C11.8956698,4.28516587 12.5226635,4.206 13.156,4.206 C13.9160038,4.206 14.6918294,4.34533194 15.4835,4.624 C16.2751706,4.90266806 16.9686637,5.31433061 17.564,5.859 L15.493,8.044 Z"
+              id="Combined-Shape" fill="#000000"></path>
+    </g>
+</svg>
                                             <!--end::Svg Icon-->
 										</span>
-                        <span class="menu-text">طلبــات الشركة</span>
+                        <span class="menu-text">طلبات الشركة</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="menu-submenu">
@@ -188,76 +164,51 @@
                         <ul class="menu-subnav">
                             <li class="menu-item menu-item-parent" aria-haspopup="true">
 												<span class="menu-link">
-													<span class="menu-text">شركة</span>
+													<span class="menu-text"> طلبات</span>
 												</span>
                             </li>
                             <li class="menu-item menu-item-submenu" aria-haspopup="true"
                                 data-menu-toggle="hover">
-                                <a href="javascript:;" class="menu-link menu-toggle">
+                                <a href="/serviceFee" class="menu-link menu-toggle">
                                     <i class="menu-bullet menu-bullet-dot">
                                         <span></span>
                                     </i>
                                     <span class="menu-text">الاشتراكات </span>
-                                    <i class="menu-arrow"></i>
                                 </a>
-                                <div class="menu-submenu">
-                                    <i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
+                                <i class="menu-arrow"></i>
 
-                                        <li class="menu-item" aria-haspopup="true">
-                                            <a target="_blank"
-                                               href=""
-                                               class="menu-link">
-									<span class="svg-icon menu-icon">
-											  <i class="menu-bullet menu-bullet-dot">
+                            <li class="menu-item" aria-haspopup="true">
+                                <a href="/SubscriptionFee" class="menu-link">
+                                    <i class="menu-bullet menu-bullet-dot">
                                         <span></span>
                                     </i>
-										</span>
-                                                <span class="menu-text">اشتــراك الانضمام </span>
-                                            </a>
-                                        </li>
-
-                                        <li class="menu-item" aria-haspopup="true">
-                                            <a target="_blank"
-                                               href="/serviceRequest"
-                                               class="menu-link">
-									<span class="svg-icon menu-icon">
-										  <i class="menu-bullet menu-bullet-dot">
-                                        <span></span>
-                                    </i>
-										</span>
-                                                <span class="menu-text">الخدمات المطلوبــة</span>
-                                            </a>
-                                        </li>
-
-                                    </ul>
-                                </div>
+                                    <span class="menu-text">الخدمات المطلوبة</span>
+                                </a>
                             </li>
 
 
                         </ul>
                     </div>
-
                 </li>
-
-
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" class="menu-link menu-toggle">
-									<span class="svg-icon menu-icon">
-											<!--begin::Svg Icon | path:assets/media/svg/icons/Design/PenAndRuller.svg-->
-											<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
-                                                 viewBox="0 0 24 24" version="1.1">
-												<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-													<rect x="0" y="0" width="24" height="24"/>
-													<path d="M3,16 L5,16 C5.55228475,16 6,15.5522847 6,15 C6,14.4477153 5.55228475,14 5,14 L3,14 L3,12 L5,12 C5.55228475,12 6,11.5522847 6,11 C6,10.4477153 5.55228475,10 5,10 L3,10 L3,8 L5,8 C5.55228475,8 6,7.55228475 6,7 C6,6.44771525 5.55228475,6 5,6 L3,6 L3,4 C3,3.44771525 3.44771525,3 4,3 L10,3 C10.5522847,3 11,3.44771525 11,4 L11,19 C11,19.5522847 10.5522847,20 10,20 L4,20 C3.44771525,20 3,19.5522847 3,19 L3,16 Z"
-                                                          fill="#000000" opacity="0.3"/>
-													<path d="M16,3 L19,3 C20.1045695,3 21,3.8954305 21,5 L21,15.2485298 C21,15.7329761 20.8241635,16.200956 20.5051534,16.565539 L17.8762883,19.5699562 C17.6944473,19.7777745 17.378566,19.7988332 17.1707477,19.6169922 C17.1540423,19.602375 17.1383289,19.5866616 17.1237117,19.5699562 L14.4948466,16.565539 C14.1758365,16.200956 14,15.7329761 14,15.2485298 L14,5 C14,3.8954305 14.8954305,3 16,3 Z"
-                                                          fill="#000000"/>
-												</g>
-											</svg>
-                                        <!--end::Svg Icon-->
+										<span class="svg-icon menu-icon">
+											<!--begin::Svg Icon | path:assets/media/svg/icons/Layout/Layout-horizontal.svg-->
+											<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <g id="Stockholm-icons-/-Shopping-/-Dollar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+        <rect id="Rectangle" fill="#000000" opacity="0.3" x="11.5" y="2" width="2" height="4" rx="1"></rect>
+        <rect id="Rectangle-Copy-3" fill="#000000" opacity="0.3" x="11.5" y="16" width="2" height="5" rx="1"></rect>
+        <path d="M15.493,8.044 C15.2143319,7.68933156 14.8501689,7.40750104 14.4005,7.1985 C13.9508311,6.98949895 13.5170021,6.885 13.099,6.885 C12.8836656,6.885 12.6651678,6.90399981 12.4435,6.942 C12.2218322,6.98000019 12.0223342,7.05283279 11.845,7.1605 C11.6676658,7.2681672 11.5188339,7.40749914 11.3985,7.5785 C11.2781661,7.74950085 11.218,7.96799867 11.218,8.234 C11.218,8.46200114 11.2654995,8.65199924 11.3605,8.804 C11.4555005,8.95600076 11.5948324,9.08899943 11.7785,9.203 C11.9621676,9.31700057 12.1806654,9.42149952 12.434,9.5165 C12.6873346,9.61150047 12.9723317,9.70966616 13.289,9.811 C13.7450023,9.96300076 14.2199975,10.1308324 14.714,10.3145 C15.2080025,10.4981676 15.6576646,10.7419985 16.063,11.046 C16.4683354,11.3500015 16.8039987,11.7268311 17.07,12.1765 C17.3360013,12.6261689 17.469,13.1866633 17.469,13.858 C17.469,14.6306705 17.3265014,15.2988305 17.0415,15.8625 C16.7564986,16.4261695 16.3733357,16.8916648 15.892,17.259 C15.4106643,17.6263352 14.8596698,17.8986658 14.239,18.076 C13.6183302,18.2533342 12.97867,18.342 12.32,18.342 C11.3573285,18.342 10.4263378,18.1741683 9.527,17.8385 C8.62766217,17.5028317 7.88033631,17.0246698 7.285,16.404 L9.413,14.238 C9.74233498,14.6433354 10.176164,14.9821653 10.7145,15.2545 C11.252836,15.5268347 11.7879973,15.663 12.32,15.663 C12.5606679,15.663 12.7949989,15.6376669 13.023,15.587 C13.2510011,15.5363331 13.4504991,15.4540006 13.6215,15.34 C13.7925009,15.2259994 13.9286662,15.0740009 14.03,14.884 C14.1313338,14.693999 14.182,14.4660013 14.182,14.2 C14.182,13.9466654 14.1186673,13.7313342 13.992,13.554 C13.8653327,13.3766658 13.6848345,13.2151674 13.4505,13.0695 C13.2161655,12.9238326 12.9248351,12.7908339 12.5765,12.6705 C12.2281649,12.5501661 11.8323355,12.420334 11.389,12.281 C10.9583312,12.141666 10.5371687,11.9770009 10.1255,11.787 C9.71383127,11.596999 9.34650161,11.3531682 9.0235,11.0555 C8.70049838,10.7578318 8.44083431,10.3968355 8.2445,9.9725 C8.04816568,9.54816454 7.95,9.03200304 7.95,8.424 C7.95,7.67666293 8.10199848,7.03700266 8.406,6.505 C8.71000152,5.97299734 9.10899753,5.53600171 9.603,5.194 C10.0970025,4.85199829 10.6543302,4.60183412 11.275,4.4435 C11.8956698,4.28516587 12.5226635,4.206 13.156,4.206 C13.9160038,4.206 14.6918294,4.34533194 15.4835,4.624 C16.2751706,4.90266806 16.9686637,5.31433061 17.564,5.859 L15.493,8.044 Z"
+              id="Combined-Shape" fill="#000000"></path>
+    </g>
+</svg>
+                                            <!--end::Svg Icon-->
 										</span>
-                        <span class="menu-text">طلبــات المـوظف</span>
+                        <span class="menu-text">طلبات الموظف</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="menu-submenu">
@@ -265,63 +216,42 @@
                         <ul class="menu-subnav">
                             <li class="menu-item menu-item-parent" aria-haspopup="true">
 												<span class="menu-link">
-													<span class="menu-text">الموظف</span>
+													<span class="menu-text"> طلبات</span>
 												</span>
                             </li>
                             <li class="menu-item menu-item-submenu" aria-haspopup="true"
                                 data-menu-toggle="hover">
-                                <a href="javascript:;" class="menu-link menu-toggle">
+                                <a href="/serviceFee" class="menu-link menu-toggle">
                                     <i class="menu-bullet menu-bullet-dot">
                                         <span></span>
                                     </i>
-                                    <span class="menu-text">الطلبــات</span>
-                                    <i class="menu-arrow"></i>
+                                    <span class="menu-text">طلب إجازة </span>
                                 </a>
-                                <div class="menu-submenu">
-                                    <i class="menu-arrow"></i>
-                                    <ul class="menu-subnav">
+                                <i class="menu-arrow"></i>
 
-                                        <li class="menu-item" aria-haspopup="true">
-                                            <a target="_blank"
-                                               href="/holidayRequest"
-                                               class="menu-link">
-									<span class="svg-icon menu-icon">
-											  <i class="menu-bullet menu-bullet-dot">
+                            <li class="menu-item" aria-haspopup="true">
+                                <a href="/SubscriptionFee" class="menu-link">
+                                    <i class="menu-bullet menu-bullet-dot">
                                         <span></span>
                                     </i>
-										</span>
-                                                <span class="menu-text">طلب إجــازة</span>
-                                            </a>
-                                        </li>
-
-                                        <li class="menu-item" aria-haspopup="true">
-                                            <a target="_blank"
-                                               href="/resignationrequest"
-                                               class="menu-link">
-									<span class="svg-icon menu-icon">
-										  <i class="menu-bullet menu-bullet-dot">
+                                    <span class="menu-text"> طلب احتياج</span>
+                                </a>
+                            </li>
+                            <li class="menu-item" aria-haspopup="true">
+                                <a href="/SubscriptionFee" class="menu-link">
+                                    <i class="menu-bullet menu-bullet-dot">
                                         <span></span>
                                     </i>
-										</span>
-                                                <span class="menu-text">طلب إستقــالة</span>
-                                            </a>
-                                        </li>
-
-                                        <li class="menu-item" aria-haspopup="true">
-                                            <a target="_blank"
-                                               href="/IhtiagRequest"
-                                               class="menu-link">
-									<span class="svg-icon menu-icon">
-										  <i class="menu-bullet menu-bullet-dot">
+                                    <span class="menu-text"> طلب إذن مستعجل</span>
+                                </a>
+                            </li>
+                            <li class="menu-item" aria-haspopup="true">
+                                <a href="/SubscriptionFee" class="menu-link">
+                                    <i class="menu-bullet menu-bullet-dot">
                                         <span></span>
                                     </i>
-										</span>
-                                                <span class="menu-text">طلب احتيــاج</span>
-                                            </a>
-                                        </li>
-
-                                    </ul>
-                                </div>
+                                    <span class="menu-text"> طلب استقالة</span>
+                                </a>
                             </li>
 
 
@@ -425,8 +355,8 @@
                                                             y1="535.76" x2="720.55" y2="325.76"
                                                             gradientUnits="userSpaceOnUse">
                                                         <stop offset="0"
-                                                                                                 stop-color="gray"
-                                                                                                 stop-opacity="0.25"/><stop
+                                                              stop-color="gray"
+                                                              stop-opacity="0.25"/><stop
                                                                 offset="0.54" stop-color="gray" stop-opacity="0.12"/><stop
                                                                 offset="1" stop-color="gray"
                                                                 stop-opacity="0.1"/></linearGradient><linearGradient
@@ -661,12 +591,12 @@
 											</svg>
                                         <!--end::Svg Icon-->
 										</span>
-                        <span class="menu-text">الحضور والغيــــاب </span>
+                        <span class="menu-text">الحضور و الانصراف </span>
                     </a>
                 </li>
 
                 <li class="menu-section">
-                    <h4 class="menu-text">إالمراسلات</h4>
+                    <h4 class="menu-text">المراسلات</h4>
                     <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
                 </li>
                 <li class="menu-item" aria-haspopup="true">
@@ -695,6 +625,56 @@
                 <li class="menu-section">
                     <h4 class="menu-text">إدارة التقارير</h4>
                     <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
+                </li>
+                <li class="menu-item" aria-haspopup="true">
+                    <a target="_blank" href="https://preview.keenthemes.com/metronic/demo5/builder.html"
+                       class="menu-link">
+									<span class="svg-icon menu-icon">
+											<!--begin::Svg Icon | path:assets/media/svg/icons/Layout/Layout-4-blocks.svg-->
+											<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <g id="Stockholm-icons-/-Communication-/-Sending-mail" stroke="none" stroke-width="1" fill="none"
+       fill-rule="evenodd">
+        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+        <path d="M4,16 L5,16 C5.55228475,16 6,16.4477153 6,17 C6,17.5522847 5.55228475,18 5,18 L4,18 C3.44771525,18 3,17.5522847 3,17 C3,16.4477153 3.44771525,16 4,16 Z M1,11 L5,11 C5.55228475,11 6,11.4477153 6,12 C6,12.5522847 5.55228475,13 5,13 L1,13 C0.44771525,13 6.76353751e-17,12.5522847 0,12 C-6.76353751e-17,11.4477153 0.44771525,11 1,11 Z M3,6 L5,6 C5.55228475,6 6,6.44771525 6,7 C6,7.55228475 5.55228475,8 5,8 L3,8 C2.44771525,8 2,7.55228475 2,7 C2,6.44771525 2.44771525,6 3,6 Z"
+              id="Combined-Shape" fill="#000000" opacity="0.3"></path>
+        <path d="M10,6 L22,6 C23.1045695,6 24,6.8954305 24,8 L24,16 C24,17.1045695 23.1045695,18 22,18 L10,18 C8.8954305,18 8,17.1045695 8,16 L8,8 C8,6.8954305 8.8954305,6 10,6 Z M21.0849395,8.0718316 L16,10.7185839 L10.9150605,8.0718316 C10.6132433,7.91473331 10.2368262,8.02389331 10.0743092,8.31564728 C9.91179228,8.60740125 10.0247174,8.9712679 10.3265346,9.12836619 L15.705737,11.9282847 C15.8894428,12.0239051 16.1105572,12.0239051 16.294263,11.9282847 L21.6734654,9.12836619 C21.9752826,8.9712679 22.0882077,8.60740125 21.9256908,8.31564728 C21.7631738,8.02389331 21.3867567,7.91473331 21.0849395,8.0718316 Z"
+              id="Combined-Shape" fill="#000000"></path>
+    </g>
+</svg>
+                                        <!--end::Svg Icon-->
+										</span>
+                        <span class="menu-text">التقارير  </span>
+                    </a>
+                </li>
+                <li class="menu-section">
+                    <h4 class="menu-text">العملات </h4>
+                    <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
+                </li>
+                <li class="menu-item" aria-haspopup="true">
+                    <a target="_blank" href="https://preview.keenthemes.com/metronic/demo5/builder.html"
+                       class="menu-link">
+									<span class="svg-icon menu-icon">
+											<!--begin::Svg Icon | path:assets/media/svg/icons/Layout/Layout-4-blocks.svg-->
+											<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <g id="Stockholm-icons-/-Communication-/-Sending-mail" stroke="none" stroke-width="1" fill="none"
+       fill-rule="evenodd">
+        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+        <path d="M4,16 L5,16 C5.55228475,16 6,16.4477153 6,17 C6,17.5522847 5.55228475,18 5,18 L4,18 C3.44771525,18 3,17.5522847 3,17 C3,16.4477153 3.44771525,16 4,16 Z M1,11 L5,11 C5.55228475,11 6,11.4477153 6,12 C6,12.5522847 5.55228475,13 5,13 L1,13 C0.44771525,13 6.76353751e-17,12.5522847 0,12 C-6.76353751e-17,11.4477153 0.44771525,11 1,11 Z M3,6 L5,6 C5.55228475,6 6,6.44771525 6,7 C6,7.55228475 5.55228475,8 5,8 L3,8 C2.44771525,8 2,7.55228475 2,7 C2,6.44771525 2.44771525,6 3,6 Z"
+              id="Combined-Shape" fill="#000000" opacity="0.3"></path>
+        <path d="M10,6 L22,6 C23.1045695,6 24,6.8954305 24,8 L24,16 C24,17.1045695 23.1045695,18 22,18 L10,18 C8.8954305,18 8,17.1045695 8,16 L8,8 C8,6.8954305 8.8954305,6 10,6 Z M21.0849395,8.0718316 L16,10.7185839 L10.9150605,8.0718316 C10.6132433,7.91473331 10.2368262,8.02389331 10.0743092,8.31564728 C9.91179228,8.60740125 10.0247174,8.9712679 10.3265346,9.12836619 L15.705737,11.9282847 C15.8894428,12.0239051 16.1105572,12.0239051 16.294263,11.9282847 L21.6734654,9.12836619 C21.9752826,8.9712679 22.0882077,8.60740125 21.9256908,8.31564728 C21.7631738,8.02389331 21.3867567,7.91473331 21.0849395,8.0718316 Z"
+              id="Combined-Shape" fill="#000000"></path>
+    </g>
+</svg>
+                                        <!--end::Svg Icon-->
+										</span>
+                        <span class="menu-text">العملات</span>
+                    </a>
                 </li>
 
                 <li class="menu-section">

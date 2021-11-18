@@ -28,89 +28,155 @@ Route::get('/', function () {
 //});
 
 Route::get('/Log', function () {
-    return view('Admin.Login');
+    return view('Systems.Admin.Login');
 });
 
 Route::get('/CompanyInfo', function () {
-    return view('Admin.CompanyInfo');
+    return view('Systems.Admin.companyInfo');
 });
 
 Route::get('/employee', function () {
-    return view('Admin.employee');
+    return view('Systems.Admin.employee');
 });
 Route::get('/service', function () {
-    return view('Admin.service');
+    return view('Systems.Admin.service');
 });
 Route::get('/serviceRequest', function () {
-    return view('Admin.serviceRequest');
+    return view('Systems.Admin.serviceRequest');
 });
 
 Route::get('/dataTable', function () {
-    return view('Admin.dataTable');
+    return view('Systems.Admin.dataTable');
 });
 
 Route::get('/modal', function () {
-    return view('Admin.modal');
+    return view('Systems.Admin.modal');
 });
 
-Route::get('/account', function () {
-    return view('templete.accountTemplete');
-});
-Route::get('/wizard', function () {
-    return view('Admin.wizard');
+Route::get('/report', function () {
+    return view('templete.report');
 });
 
-Route::get('/AddService', function () {
-    return view('Admin.AddService');
-});
+
+
 
 Route::get('/holidayRequest', function () {
-    return view('Admin.holidayReq');
+    return view('Systems.Admin.holidayReq');
 });
 
 Route::get('/IhtiagRequest', function () {
-    return view('Admin.IhtiagReq');
+    return view('Systems.Admin.IhtiagReq');
 });
 Route::get('/resignationrequest', function () {
-    return view('Admin.resignationrequest');
+    return view('Systems.Admin.resignationrequest');
 });
 
 Route::get('/SubscriptionFee', function () {
-    return view('Admin.SubscriptionFee');
+    return view('Systems.Admin.SubscriptionFee');
 });
 Route::get('/serviceFee', function () {
-    return view('Admin.serviceFee');
+    return view('Systems.Admin.serviceFee');
 });
 Route::get('/contractWorks', function () {
-    return view('Admin.contractWorks');
+    return view('Systems.Admin.contractWorks');
 });
 Route::get('/RecruitmentAds', function () {
-    return view('Admin.RecruitmentAds');
+    return view('Systems.Admin.recruitmentAds');
 });
 
 Route::get('/interviewTaps', function () {
-    return view('Admin.interviewTaps');
+    return view('Systems.Admin.interviewTaps');
 });
 Route::get('/JobApplicantData', function () {
-    return view('Admin.JobApplicantData');
+    return view('Systems.Admin.JobApplicantData');
 });
+
+Route::get('/massages', function () {
+    return view('Systems.Admin.massages');
+});
+Route::get('/allReportAdmin', function () {
+    return view('Systems.Admin.allReportAdmin');
+});
+Route::get('/UrgentRequest', function () {
+    return view('Systems.Admin.urgentRequest');
+});
+Route::get('/viewManagerAccount', function () {
+    return view('Systems.Admin.viewManagerAccount');
+});
+Route::get('/viewEmployeeAccount', function () {
+    return view('Systems.Admin.viewEmployeeAccount');
+});
+
+
 
 //Manager Routes
 Route::get('/ManagerAccount', function () {
-    return view('Manager.ManagerAccount');
+    return view('Systems.Manager.ManagerAccount');
 });
 Route::get('/ManageracountInformation', function () {
-    return view('Manager.ManageracountInformation');
+    return view('Systems.Manager.ManageracountInformation');
 });
 Route::get('/ManagerChangePassword', function () {
-    return view('Manager.ManagerChangePassword');
+    return view('Systems.Manager.ManagerChangePassword');
+});
+Route::get('/ManagerviewManagerAccount', function () {
+    return view('Systems.Manager.viewManagerAccount');
 });
 Route::get('/ManagerEmailSiting', function () {
-    return view('Manager.ManagerEmailSiting');
+    return view('Systems.Manager.ManagerEmailSiting');
 });
-Route::get('/serviceRequest', function () {
-    return view('Manager.serviceRequest');
+Route::get('/ManagerserviceRequest', function () {
+    return view('Systems.Manager.ManagerserviceRequest');
+});
+Route::get('/employeeInformation', function () {
+    return view('Systems.Manager.employeeInformation');
+});
+
+Route::get('/ManagersalaryFee', function () {
+    return view('Systems.Manager.ManagersalaryFee');
+});
+
+Route::get('/ManagersubscriptionFee', function () {
+    return view('Systems.Manager.ManagersubscriptionFee');
+});
+
+Route::get('/ManagerMassages', function () {
+    return view('Systems.Manager.ManagerMassages');
 });
 
 
+//Employee Routs
+Route::get('/EmployeeAccount', function () {
+    return view('Systems.employee.EmployeeAccount');
+});
+Route::get('/EmployeeAcountInformation', function () {
+    return view('Systems.employee.EmployeeAcountInformation');
+});
+Route::get('/EmployeeChangePassword', function () {
+    return view('Systems.employee.EmployeeChangePassword');
+});
+Route::get('/EmployeeviewEmployeeAccount', function () {
+    return view('Systems.employee.viewEmployeeAccount');
+});
 
+Route::get('/EmployeeCV', function () {
+    return view('Systems.employee.EmployeeCV');
+});
+Route::get('/EmployeeResignationrRequest', function () {
+    return view('Systems.employee.EmployeeResignationrRequest');
+});
+
+Route::get('/EmployeeHoliday', function () {
+    return view('Systems.employee.EmployeeHoliday');
+});
+Route::get('/EmployeeUrgentRequest', function () {
+    return view('Systems.employee.EmployeeUrgentRequest');
+});
+
+Route::get('/EmployeeIhtiagRequest', function () {
+    return view('Systems.employee.EmployeeIhtiagRequest');
+});
+
+Route::get('/EmployeeSalary', function () {
+    return view('Systems.employee.EmployeeSalary');
+});

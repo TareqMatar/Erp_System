@@ -116,7 +116,7 @@
 											</svg>
                                         <!--end::Svg Icon-->
 										</span>
-                        <span class="menu-text">حضور وغياب </span>
+                        <span class="menu-text">حضور وانصراف </span>
                     </a>
                 </li>
 

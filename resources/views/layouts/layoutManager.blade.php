@@ -295,6 +295,9 @@
     <script src="{{ asset('assets/js/pages/crud/datatables/basic/basic.js') }}"></script>
 
     <!--end::Page Scripts-->
+    <script src="assets/js/pages/crud/forms/widgets/select2.js"></script>
+    <script src="assets/js/pages/crud/forms/widgets/form-repeater.js"></script>
+
 </body>
 <!--end::Body-->
 
